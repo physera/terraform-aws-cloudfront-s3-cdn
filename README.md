@@ -6,7 +6,7 @@
 # terraform-aws-cloudfront-s3-cdn [![Build Status](https://travis-ci.org/cloudposse/terraform-aws-cloudfront-s3-cdn.svg?branch=master)](https://travis-ci.org/cloudposse/terraform-aws-cloudfront-s3-cdn) [![Latest Release](https://img.shields.io/github/release/cloudposse/terraform-aws-cloudfront-s3-cdn.svg)](https://travis-ci.org/cloudposse/terraform-aws-cloudfront-s3-cdn/releases) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
 
 
-Terraform module to provision an AWS CloudFront CDN with an S3 origin.
+Terraform module to provision an AWS CloudFront CDN with an S3 origin. Replaced Route53 with CloudFlare.
 
 
 ---
