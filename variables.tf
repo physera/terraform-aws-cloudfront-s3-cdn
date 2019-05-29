@@ -281,3 +281,9 @@ variable "wait_for_deployment" {
   default     = "true"
   description = "When set to 'true' the resource will wait for the distribution status to change from InProgress to Deployed"
 }
+
+variable "versioning_enabled" {
+  type        = "string"
+  default     = "false"
+  description = "A state of versioning. Versioning is a means of keeping multiple variants of an object in the same bucket."
+}
